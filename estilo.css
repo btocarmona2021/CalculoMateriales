@@ -9,6 +9,9 @@ body {
     height: 100vh;
     background-color: #fa3939;
     padding: 10px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .ladrillos {
@@ -31,6 +34,21 @@ body {
 .aberturas {
     width: 400px;
     height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.resumen{
+    width: 300px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.columna2{
+    width: 400px;
+    height: 450px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
