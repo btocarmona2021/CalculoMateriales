@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Calculo de materiales en obra</title>
+</head>
+<body>
+<div class="contenedor">
+    <fieldset class="ladrillos">
+        <legend>Medida de ladrillos y juntas</legend>
+
+        <div>
+            <label for="espesor">Espesor</label>
+            <input type="number" name="espesor" id="espesor" placeholder="Ingrese espesor en cm" min="0" max="100">
+        </div>
+
+        <div>
+            <label for="largo">Largo</label>
+            <input type="number" name="espesor" id="largo" placeholder="Ingrese largo en cm" min="0" max="100">
+        </div>
+
+        <div>
+            <label for="ancho">Ancho</label>
+            <input type="number" name="espesor" id="ancho" placeholder="Ingrese ancho en cm" min="0" max="100">
+        </div>
+
+        <div>
+
+            <label for="lhueco">Ladrillo Hueco</label>
+            <input type="radio" name="ladrillo" id="lhueco">
+
+            <label for="lcomun">Ladrillo Común</label>
+            <input type="radio" name="ladrillo" id="lcomun">
+
+            <label for="lbloque">Ladrillo Hueco</label>
+            <input type="radio" name="ladrillo" id="lbloque">
+
+        </div>
+        <div>
+            <label for="espesorJunta">Espesor de junta</label>
+            <input type="number" name="espesorJunta" id="espesorJunta" placeholder="Ingrese" min="0" max="10">
+        </div>
+
+    </fieldset>
+    <fieldset class="ladrillos">
+        <legend>Crear Paredes</legend>
+
+        <div>
+            <label for="largo">Largo Pared</label>
+            <input type="number" name="espesor" id="largoPared" placeholder="Ingrese largo en cm" min="0" max="100">
+        </div>
+
+        <div>
+            <label for="ancho">Alto Pared</label>
+            <input type="number" name="espesor" id="altoPAred" placeholder="Ingrese ancho en cm" min="0" max="100">
+        </div>
+        <button value="Crear Pared">Crear Pared</button>
+
+
+    </fieldset>
+
+    <fieldset class="aberturas">
+        <legend>Crear Aberturas</legend>
+
+        <div>
+            <label for="largo">Largo Pared</label>
+            <input type="number" name="espesor" id="largoAbertura" placeholder="Ingrese largo en cm" min="0" max="100">
+            <button value="Crear Abertura">Crear Pared</button>
+        </div>
+
+        <div>
+            <label for="ancho">Alto Cared</label>
+            <input type="number" name="espesor" id="altoAbertura" placeholder="Ingrese ancho en cm" min="0" max="100">
+            <button value="Corregir">Corregir</button>
+        </div>
+
+
+    </fieldset>
+
+</div>
+</body>
+</html>
